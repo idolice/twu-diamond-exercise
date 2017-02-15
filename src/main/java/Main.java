@@ -12,8 +12,11 @@ public class Main {
         DiamondWithNamePrinter diamondWithNamePrinter = new DiamondWithNamePrinter();
         Scanner scanner = new Scanner(System.in);
         int input = scanner.nextInt();
+        System.out.print("First\n");
         isoscelesTrianglePrinter.print(input);
+        System.out.print("Second\n");
         diamondPrinter.print(input);
+        System.out.print("Third\n");
         diamondWithNamePrinter.print(input);
     }
 }
